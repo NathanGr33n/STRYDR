@@ -1,2 +1,44 @@
-#Documentation
+# Documentation
 /design
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Flutter / Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+
+# Generated
+*.g.dart.bak
+
+# Android
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+*.apk
+*.aab
+
+# iOS
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+*.ipa
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
