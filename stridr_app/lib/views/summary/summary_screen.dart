@@ -111,7 +111,7 @@ class SummaryScreen extends StatelessWidget {
           urlTemplate:
               'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
           subdomains: const ['a', 'b', 'c', 'd'],
-          userAgentPackageName: 'dev.stridr.stridr',
+          userAgentPackageName: 'dev.stryder.stryder',
         ),
         PolylineLayer(
           polylines: [

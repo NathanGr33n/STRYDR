@@ -1,4 +1,4 @@
-# STRIDR
+# STRYDER
 
 A bold, minimalistic running app built with Flutter for iOS.
 

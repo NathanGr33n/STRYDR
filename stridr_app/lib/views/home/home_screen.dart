@@ -31,7 +31,7 @@ class HomeScreen extends ConsumerWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'STRIDR',
+                    'STRYDER',
                     style: AppTheme.statNumber(fontSize: 28),
                   ),
                   IconButton(

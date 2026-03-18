@@ -1,6 +1,6 @@
-# STRIDR — Flutter App
+# STRYDER — Flutter App
 
-The Flutter source for STRIDR, a minimalistic running app with a neon-purple dark theme.
+The Flutter source for STRYDER, a minimalistic running app with a neon-purple dark theme.
 
 ## Quick Start
 

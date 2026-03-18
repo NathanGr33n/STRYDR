@@ -1,4 +1,4 @@
-package dev.stridr.stridr
+package dev.stryder.stryder
 
 import io.flutter.embedding.android.FlutterActivity
 

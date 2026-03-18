@@ -8,8 +8,8 @@ import 'views/summary/summary_screen.dart';
 import 'views/insights/insights_screen.dart';
 import 'views/goal/goal_screen.dart';
 
-class StridrApp extends StatelessWidget {
-  StridrApp({super.key});
+class StryderApp extends StatelessWidget {
+  StryderApp({super.key});
 
   final GoRouter _router = GoRouter(
     initialLocation: '/',
@@ -45,7 +45,7 @@ class StridrApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'STRIDR',
+      title: 'STRYDER',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       routerConfig: _router,
