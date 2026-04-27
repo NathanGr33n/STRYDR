@@ -1,19 +1,37 @@
-# Documentation
+# ============================================================
+# Documentation / Design assets (not for VCS)
+# ============================================================
 /design
 
+# ============================================================
 # OS
+# ============================================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 desktop.ini
+*~
 
-# IDE
+# ============================================================
+# IDE / Editors
+# ============================================================
 .idea/
 .vscode/
 *.iml
 *.ipr
 *.iws
+*.suo
+*.sw?
+.atom/
+.history/
 
-# Flutter / Dart
+# ============================================================
+# Flutter / Dart / Pub
+# ============================================================
 **/build/
 **/.dart_tool/
 **/.flutter-plugins
@@ -27,18 +45,49 @@ desktop.ini
 # Generated
 *.g.dart.bak
 
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ============================================================
 # Android
-**/android/app/debug
-**/android/app/profile
-**/android/app/release
+# ============================================================
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
 *.apk
 *.aab
 
+# ============================================================
 # iOS
+# ============================================================
 **/ios/Runner.xcworkspace/xcuserdata/
 **/ios/Runner.xcodeproj/xcuserdata/
 *.ipa
 
-# Symbolication / Obfuscation
-app.*.symbols
-app.*.map.json
+# ============================================================
+# Secrets & Environment
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.keystore
+google-services.json
+GoogleService-Info.plist
+key.properties
+codemagic_credentials.json
+
+# ============================================================
+# Logs & Misc
+# ============================================================
+*.log
+*.class
+*.pyc
+*.swp
+.svn/
+.buildlog/
+migrate_working_dir/
