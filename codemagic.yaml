@@ -10,6 +10,10 @@ workflows:
     scripts:
       - name: Get Flutter packages
         script: flutter pub get
+      - name: Static analysis
+        script: flutter analyze
+      - name: Test suite
+        script: flutter test
       - name: Build iOS
         script: |
           flutter build ios --release --no-codesign
